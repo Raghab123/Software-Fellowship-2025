@@ -16,3 +16,6 @@ Git commands <br>
 15. Create a github repo in github.com
 16. Paste this for xample provided in the website :
     git remote add origin https://github.com/Raghab123/Software-Fellowship-2025.git
+
+and this too:
+    git push -u origin main
