@@ -11,3 +11,4 @@ Git commands <br>
 10. To change branch --> git branch -M main
 11. To commit --> git commit -m "first commit"
 12. "git log" --> To view the message of commit
+13. "git log --oneline" --> To view all messages of commit in one line
