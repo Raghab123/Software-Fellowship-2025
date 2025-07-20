@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, red, blue);
+    padding: 20px;
+    /* Container ko padding hatayo vane kina white aauxa? */
+    border: 5px solid black;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: gray;
+    padding: 40px 20px 70px;
+    border: 5px solid black;
+    border-radius: 20px;
+    
+}
+
+.todo-app h2{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    /* background: rgb(42, 58, 12); */
+}
+
+input{
+    flex: 1; /*Takes the full width*/
+    border: none;
+    outline: none;
+    color: black;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 3px solid black;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background: darkblue;
+    border: 2px solid darkblue;
+}
+
+ul li{
+    padding: 10px 15px;
+    /* border-bottom: 1px solid darkblue; */
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: ""; /*unchecked emoji*/
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    color: green;
+    margin-right: 10px;
+    top: 8px;
+    left: 40px;
+}
+
+ul li.checked{
+    content: "✔"; /*checked emoji*/
+    color: green;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    content: ""; 
+    text-decoration: line-through;
+}

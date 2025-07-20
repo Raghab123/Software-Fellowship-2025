@@ -1,0 +1,16 @@
+div{
+    width: 500px;
+    height : 500px;
+    background-color: 	#005cbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div1{
+    background-color: #FECB00 ;
+}
+
+div2{
+    background-color: #FECB00 ;
+}
