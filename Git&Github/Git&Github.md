@@ -14,8 +14,7 @@ Git commands <br>
 13. "git log --oneline" --> To view all messages of commit in one line
 14. ".gitignore" --> This file must be commited to githube but the files included inside it is ignored
 15. Create a github repo in github.com
-16. Paste this for xample provided in the website :
-    git remote add origin https://github.com/Raghab123/Software-Fellowship-2025.git
-
-and this too:
-    git push -u origin main
+16. Paste this for sample provided in the website :<br>
+    "git remote add origin https://github.com/Raghab123/Software-Fellowship-2025.git"<br>
+    and this too:<br>
+    "git push -u origin main"
