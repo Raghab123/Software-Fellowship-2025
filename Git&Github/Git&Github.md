@@ -12,3 +12,7 @@ Git commands <br>
 11. To commit --> git commit -m "first commit"
 12. "git log" --> To view the message of commit
 13. "git log --oneline" --> To view all messages of commit in one line
+14. ".gitignore" --> This file must be commited to githube but the files included inside it is ignored
+15. Create a github repo in github.com
+16. Paste this for xample provided in the website :
+    git remote add origin https://github.com/Raghab123/Software-Fellowship-2025.git
